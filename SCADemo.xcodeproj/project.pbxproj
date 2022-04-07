@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45F94C4627FEB8A100FEE14B /* SCADemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F94C4527FEB8A100FEE14B /* SCADemoApp.swift */; };
+		45F94C4827FEB8A100FEE14B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F94C4727FEB8A100FEE14B /* ContentView.swift */; };
+		45F94C4A27FEB8A300FEE14B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F94C4927FEB8A300FEE14B /* Assets.xcassets */; };
+		45F94C4D27FEB8A300FEE14B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F94C4C27FEB8A300FEE14B /* Preview Assets.xcassets */; };
+		45F94C5527FEBB5100FEE14B /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 45F94C5427FEBB5100FEE14B /* ComposableArchitecture */; };
+		45F94C5827FEBCC600FEE14B /* RootFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F94C5727FEBCC600FEE14B /* RootFeature.swift */; };
+		45F94C5A27FEBCEB00FEE14B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F94C5927FEBCEB00FEE14B /* RootView.swift */; };
+		45F94C5D27FEBD2E00FEE14B /* SystemEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F94C5C27FEBD2E00FEE14B /* SystemEnvironment.swift */; };
+		45F94C5F27FEBD5300FEE14B /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F94C5E27FEBD5300FEE14B /* APIError.swift */; };
+		45F94C6327FEBFCC00FEE14B /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F94C6227FEBFCC00FEE14B /* CurrentWeather.swift */; };
+		45F94C6627FEC09100FEE14B /* WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F94C6527FEC09100FEE14B /* WeatherAPI.swift */; };
+		45F94C6827FEDCC000FEE14B /* DayEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F94C6727FEDCC000FEE14B /* DayEffects.swift */; };
+		45F94C6A27FEE8A100FEE14B /* DayFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F94C6927FEE8A100FEE14B /* DayFeature.swift */; };
+		45F94C6C27FEF36200FEE14B /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F94C6B27FEF36200FEE14B /* DayView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45F94C4227FEB8A100FEE14B /* SCADemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCADemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F94C4527FEB8A100FEE14B /* SCADemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCADemoApp.swift; sourceTree = "<group>"; };
+		45F94C4727FEB8A100FEE14B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		45F94C4927FEB8A300FEE14B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45F94C4C27FEB8A300FEE14B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		45F94C5727FEBCC600FEE14B /* RootFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootFeature.swift; sourceTree = "<group>"; };
+		45F94C5927FEBCEB00FEE14B /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		45F94C5C27FEBD2E00FEE14B /* SystemEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemEnvironment.swift; sourceTree = "<group>"; };
+		45F94C5E27FEBD5300FEE14B /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		45F94C6227FEBFCC00FEE14B /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		45F94C6527FEC09100FEE14B /* WeatherAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPI.swift; sourceTree = "<group>"; };
+		45F94C6727FEDCC000FEE14B /* DayEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayEffects.swift; sourceTree = "<group>"; };
+		45F94C6927FEE8A100FEE14B /* DayFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayFeature.swift; sourceTree = "<group>"; };
+		45F94C6B27FEF36200FEE14B /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		45F94C6D27FEFABC00FEE14B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45F94C3F27FEB8A100FEE14B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F94C5527FEBB5100FEE14B /* ComposableArchitecture in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45F94C3927FEB8A100FEE14B = {
+			isa = PBXGroup;
+			children = (
+				45F94C4427FEB8A100FEE14B /* SCADemo */,
+				45F94C4327FEB8A100FEE14B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45F94C4327FEB8A100FEE14B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45F94C4227FEB8A100FEE14B /* SCADemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45F94C4427FEB8A100FEE14B /* SCADemo */ = {
+			isa = PBXGroup;
+			children = (
+				45F94C6D27FEFABC00FEE14B /* Info.plist */,
+				45F94C6427FEC07400FEE14B /* Networking */,
+				45F94C6027FEBDBB00FEE14B /* DayView */,
+				45F94C5B27FEBD0900FEE14B /* Shared */,
+				45F94C5627FEBCB500FEE14B /* Root */,
+				45F94C4527FEB8A100FEE14B /* SCADemoApp.swift */,
+				45F94C4727FEB8A100FEE14B /* ContentView.swift */,
+				45F94C4927FEB8A300FEE14B /* Assets.xcassets */,
+				45F94C4B27FEB8A300FEE14B /* Preview Content */,
+			);
+			path = SCADemo;
+			sourceTree = "<group>";
+		};
+		45F94C4B27FEB8A300FEE14B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				45F94C4C27FEB8A300FEE14B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		45F94C5627FEBCB500FEE14B /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				45F94C5727FEBCC600FEE14B /* RootFeature.swift */,
+				45F94C5927FEBCEB00FEE14B /* RootView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		45F94C5B27FEBD0900FEE14B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				45F94C5C27FEBD2E00FEE14B /* SystemEnvironment.swift */,
+				45F94C5E27FEBD5300FEE14B /* APIError.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		45F94C6027FEBDBB00FEE14B /* DayView */ = {
+			isa = PBXGroup;
+			children = (
+				45F94C6227FEBFCC00FEE14B /* CurrentWeather.swift */,
+				45F94C6727FEDCC000FEE14B /* DayEffects.swift */,
+				45F94C6927FEE8A100FEE14B /* DayFeature.swift */,
+				45F94C6B27FEF36200FEE14B /* DayView.swift */,
+			);
+			path = DayView;
+			sourceTree = "<group>";
+		};
+		45F94C6427FEC07400FEE14B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				45F94C6527FEC09100FEE14B /* WeatherAPI.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45F94C4127FEB8A100FEE14B /* SCADemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F94C5027FEB8A300FEE14B /* Build configuration list for PBXNativeTarget "SCADemo" */;
+			buildPhases = (
+				45F94C3E27FEB8A100FEE14B /* Sources */,
+				45F94C3F27FEB8A100FEE14B /* Frameworks */,
+				45F94C4027FEB8A100FEE14B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCADemo;
+			packageProductDependencies = (
+				45F94C5427FEBB5100FEE14B /* ComposableArchitecture */,
+			);
+			productName = SCADemo;
+			productReference = 45F94C4227FEB8A100FEE14B /* SCADemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45F94C3A27FEB8A100FEE14B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					45F94C4127FEB8A100FEE14B = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 45F94C3D27FEB8A100FEE14B /* Build configuration list for PBXProject "SCADemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45F94C3927FEB8A100FEE14B;
+			packageReferences = (
+				45F94C5327FEBB5100FEE14B /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
+			productRefGroup = 45F94C4327FEB8A100FEE14B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45F94C4127FEB8A100FEE14B /* SCADemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45F94C4027FEB8A100FEE14B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F94C4D27FEB8A300FEE14B /* Preview Assets.xcassets in Resources */,
+				45F94C4A27FEB8A300FEE14B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45F94C3E27FEB8A100FEE14B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F94C5D27FEBD2E00FEE14B /* SystemEnvironment.swift in Sources */,
+				45F94C6C27FEF36200FEE14B /* DayView.swift in Sources */,
+				45F94C6827FEDCC000FEE14B /* DayEffects.swift in Sources */,
+				45F94C5A27FEBCEB00FEE14B /* RootView.swift in Sources */,
+				45F94C6A27FEE8A100FEE14B /* DayFeature.swift in Sources */,
+				45F94C4827FEB8A100FEE14B /* ContentView.swift in Sources */,
+				45F94C6327FEBFCC00FEE14B /* CurrentWeather.swift in Sources */,
+				45F94C5827FEBCC600FEE14B /* RootFeature.swift in Sources */,
+				45F94C6627FEC09100FEE14B /* WeatherAPI.swift in Sources */,
+				45F94C4627FEB8A100FEE14B /* SCADemoApp.swift in Sources */,
+				45F94C5F27FEBD5300FEE14B /* APIError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		45F94C4E27FEB8A300FEE14B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45F94C4F27FEB8A300FEE14B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45F94C5127FEB8A300FEE14B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SCADemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SCADemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tca.tait.org.SCADemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45F94C5227FEB8A300FEE14B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SCADemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SCADemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tca.tait.org.SCADemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45F94C3D27FEB8A100FEE14B /* Build configuration list for PBXProject "SCADemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F94C4E27FEB8A300FEE14B /* Debug */,
+				45F94C4F27FEB8A300FEE14B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45F94C5027FEB8A300FEE14B /* Build configuration list for PBXNativeTarget "SCADemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F94C5127FEB8A300FEE14B /* Debug */,
+				45F94C5227FEB8A300FEE14B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		45F94C5327FEBB5100FEE14B /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		45F94C5427FEBB5100FEE14B /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45F94C5327FEBB5100FEE14B /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 45F94C3A27FEB8A100FEE14B /* Project object */;
+}
